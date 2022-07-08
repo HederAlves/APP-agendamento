@@ -17,6 +17,15 @@
             "hours": "09:00",
             "price": "400,00",
             "users_query": "godofreuldo"
+        },
+        {
+            "id": 3,
+            "name": "Humberto",
+            "health_insurance": "SOS",
+            "data_query": "10/junho/2023",
+            "hours": "09:00",
+            "price": "400,00",
+            "users_query": "Zeroberto"
         }
     ]
 }
