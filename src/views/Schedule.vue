@@ -1,12 +1,13 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+    <div>
+        <h1>oi mundo</h1>
+    </div>
 </template>
 <script>
 export default {
-  name: "App"
+    name: "Schedule"
 }
 </script>
 <style>
+    
 </style>
