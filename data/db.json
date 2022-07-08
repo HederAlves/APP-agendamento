@@ -1,8 +1,22 @@
 {
-    "doctor": [
+    "doctors": [
         {
-            "id": 0,
-            "name": "Tiringão"
+            "id": 1,
+            "name": "Tiringão",
+            "health_insurance": "Medical Group",
+            "data_query": "15/abril/2023",
+            "hours": "10:00",
+            "price": "500,00",
+            "users_query": "Tiringuinha"
+        },
+        {
+            "id": 2,
+            "name": "Alfredo",
+            "health_insurance": "SOS",
+            "data_query": "10/junho/2023",
+            "hours": "09:00",
+            "price": "400,00",
+            "users_query": "godofreuldo"
         }
     ]
 }
