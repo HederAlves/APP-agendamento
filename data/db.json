@@ -1,31 +1,58 @@
 {
-    "doctors": [
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Benedita",
+      "health_insurance": "Medical Group",
+      "data_query": "15/abril/2023",
+      "hours": "10:00",
+      "price": "500,00",
+      "users_query": [
         {
-            "id": 1,
-            "name": "Tiringão",
-            "health_insurance": "Medical Group",
-            "data_query": "15/abril/2023",
-            "hours": "10:00",
-            "price": "500,00",
-            "users_query": "Tiringuinha"
+          "name_dependente": "Helcio"
         },
         {
-            "id": 2,
-            "name": "Alfredo",
-            "health_insurance": "SOS",
-            "data_query": "10/junho/2023",
-            "hours": "09:00",
-            "price": "400,00",
-            "users_query": "godofreuldo"
-        },
-        {
-            "id": 3,
-            "name": "Humberto",
-            "health_insurance": "SOS",
-            "data_query": "10/junho/2023",
-            "hours": "09:00",
-            "price": "400,00",
-            "users_query": "Zeroberto"
+          "name_dependente": "Heder"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Antonio",
+      "health_insurance": "St.Medical",
+      "data_query": "10/junho/2023",
+      "hours": "09:00",
+      "price": "400,00",
+      "users_query": [
+        {
+          "name_dependente": "Helcio"
+        },
+        {
+          "name_dependente": "Heder"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "heder alves",
+      "data_birth": "29/05/1992",
+      "sex": "Masculino",
+      "phone": "41 99999-9999",
+      "nationality": "Brasileiro",
+      "CPF": "000.000.000-00"
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "name": "Antonio",
+      "health_insurance": "Medical Group",
+      "data_query": "15/abril/2023",
+      "hours": "10:00",
+      "price": "500,00",
+      "users_query": "Heder"
+    }
+  ]
 }
