@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Schedule from './views/Schedule.vue'
 import Register from './views/Register.vue'
-import Dependentes from './views/Dependentes.vue'
+import Dependents from './views/Dependents.vue'
 
  const routes = [{
     path: '/agendamento',
@@ -15,8 +15,8 @@ import Dependentes from './views/Dependentes.vue'
 },
 {
     path: '/dependentes',
-    name: 'dependentes',
-    component: Dependentes
+    name: 'dependents',
+    component: Dependents
 }]
 
 const router = createRouter({ history: createWebHistory(), routes });
