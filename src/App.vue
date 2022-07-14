@@ -9,4 +9,7 @@ export default {
 }
 </script>
 <style>
+.inputPrimary {
+  @apply w-[50vh] border-4 rounded-md pl-2;
+}
 </style>
