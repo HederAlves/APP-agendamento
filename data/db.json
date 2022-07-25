@@ -6,15 +6,7 @@
       "health_insurance": "Medical Group",
       "data_query": "15/abril/2023",
       "hours": "10:00",
-      "price": "500,00",
-      "users_query": [
-        {
-          "name_dependente": "Helcio"
-        },
-        {
-          "name_dependente": "Heder"
-        }
-      ]
+      "price": "500,00"
     },
     {
       "id": 2,
@@ -23,12 +15,12 @@
       "data_query": "10/junho/2023",
       "hours": "09:00",
       "price": "400,00",
-      "users_query": [
+      "dependets": [
         {
-          "name_dependente": "Helcio"
+          "id": 8
         },
         {
-          "name_dependente": "Heder"
+          "id": 9
         }
       ]
     }
@@ -41,25 +33,38 @@
       "sex": "Masculino",
       "phone": "41 99999-9999",
       "nationality": "Brasileiro",
-      "CPF": "000.000.000-00"
+      "CPF": "000.000.000-00",
+      "dependets": [
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "qweqwwe",
-      "data_birth": "qweqweqw",
-      "sex": "ewqe",
-      "phone": "qweqweqweqwe",
-      "nationality": "qwewqewq",
-      "CPF": "qwe"
+      "name": null,
+      "data_birth": null,
+      "sex": null,
+      "phone": null,
+      "nationality": null,
+      "CPF": null
     },
     {
       "id": 3,
-      "name": "eqwewqe",
-      "data_birth": null,
-      "sex": "qweqw",
-      "phone": "e",
-      "nationality": "eeeqweqw",
-      "CPF": null
+      "name": "qweqwe",
+      "data_birth": "qweqwe",
+      "sex": "qweqwe",
+      "phone": "qweqwe",
+      "nationality": "qweqwe",
+      "CPF": "qweqweqw",
+      "dependents": [
+        {
+          "id": ""
+        }
+      ]
     },
     {
       "id": 4,
@@ -77,193 +82,12 @@
       "sex": null,
       "phone": null,
       "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 6,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 7,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 8,
-      "name": "qwe",
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 9,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 10,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12,
-      "name": "qwe",
-      "data_birth": "54654",
-      "sex": "qeqwe",
-      "phone": "654654",
-      "nationality": "qweqweq",
-      "CPF": "654654"
-    },
-    {
-      "id": 13,
-      "name": "qweqwe",
-      "data_birth": "78979879",
-      "sex": "qweqwe",
-      "phone": null,
-      "nationality": "987987987",
-      "CPF": "qweqwe"
-    },
-    {
-      "id": 14,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 15,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 16,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 17,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 18,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 19,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 20,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 21,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 22,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 23,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 24,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 25,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 26,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 27
+      "CPF": null,
+      "dependents": [
+        {
+          "id": ""
+        }
+      ]
     }
   ],
   "schedules": [
