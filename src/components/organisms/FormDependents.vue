@@ -69,6 +69,9 @@ export default {
         phone: null,
         nationality: null,
         CPF: null,
+        dependents:[
+          {id:""}
+        ]
       },
     };
   },

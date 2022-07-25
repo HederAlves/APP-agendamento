@@ -89,7 +89,7 @@ export default {
   components: { Modal },
 };
 </script>
-<style>
+<style scoped>
 form {
   @apply flex flex-col gap-2;
 }
