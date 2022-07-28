@@ -45,49 +45,8 @@
     },
     {
       "id": 2,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 3,
-      "name": "qweqwe",
-      "data_birth": "qweqwe",
-      "sex": "qweqwe",
-      "phone": "qweqwe",
-      "nationality": "qweqwe",
-      "CPF": "qweqweqw",
-      "dependents": [
-        {
-          "id": ""
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 5,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null,
-      "dependents": [
-        {
-          "id": ""
-        }
-      ]
+      "name": "",
+      "password": ""
     }
   ],
   "schedules": [
