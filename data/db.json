@@ -14,15 +14,7 @@
       "health_insurance": "St.Medical",
       "data_query": "10/junho/2023",
       "hours": "09:00",
-      "price": "400,00",
-      "dependets": [
-        {
-          "id": 8
-        },
-        {
-          "id": 9
-        }
-      ]
+      "price": "400,00"
     }
   ],
   "users": [
@@ -47,6 +39,29 @@
       "id": 2,
       "name": "",
       "password": ""
+    },
+    {
+      "id": 3,
+      "name": "Heder Alves",
+      "data_birth": "29/05/1992",
+      "sex": "qweqw",
+      "phone": "qweqwe",
+      "nationality": "qweqweqw",
+      "CPF": "eqwewqeqw"
+    },
+    {
+      "id": 4,
+      "name": "qwewqe",
+      "data_birth": "wqeqwe",
+      "sex": "qweeqw",
+      "phone": "qweqwe",
+      "nationality": "qweqwe",
+      "CPF": "qweqweqw",
+      "dependents": [
+        {
+          "id": ""
+        }
+      ]
     }
   ],
   "schedules": [
