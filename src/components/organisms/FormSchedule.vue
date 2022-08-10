@@ -1,6 +1,7 @@
 <template>
   <div>
     <form @submit.prevent="salvar">
+    <h1 class="m-8 text-center font-bold">Agendamento</h1>
       <ul>
         <li>
           <label>Selecione o Medico</label>
@@ -70,7 +71,7 @@
               :key="doctor.id"
               :value="doctor.users_query.name_dependente"
             >
-              {{ doctor.users_query.name_dependente }}
+              {{ doctors.users_query.name_dependente }}
             </option>
           </select>
         </li>
@@ -104,8 +105,8 @@ export default {
     listar() {
       Doctor.listar()
         .then((response) => {
-          this.doctors = response.data;
-          console.log(response.data);
+          this.doctors = response;
+          console.log(response);
           this.names = response;
           this.health_insurance = response;
           this.data_query = response;
