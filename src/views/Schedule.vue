@@ -1,6 +1,6 @@
 <template>
   <div class="mainContainer">
-    <h1 class="mt-8 text-center font-bold">Agendamento</h1>
+    <ImageSchedule />
     <IconLogo />
     <FormSchedule />
   </div>
@@ -8,10 +8,11 @@
 <script>
 import IconLogo from "../components/atoms/IconLogo.vue";
 import FormSchedule from "../components/organisms/FormSchedule.vue";
+import ImageSchedule from "../components/atoms/ImageSchedule.vue";
 
 export default {
   name: "Schedule",
-  components: { IconLogo, FormSchedule },
+  components: { IconLogo, FormSchedule, ImageSchedule },
 };
 </script>
 <style>
