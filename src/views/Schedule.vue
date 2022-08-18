@@ -1,5 +1,5 @@
 <template>
-  <div class="mainContainer">
+  <div class="flex flex-col mt-5 justify-center ml-1 gap-5 h-screen items-center sm:ml-0 sm:mt-0 sm:flex-row sm:justify-start sm:gap-20 md:gap-28 xl:gap-64">
     <ImageSchedule />
     <IconLogo />
     <FormSchedule />
@@ -15,8 +15,3 @@ export default {
   components: { IconLogo, FormSchedule, ImageSchedule },
 };
 </script>
-<style>
-.mainContainer {
-  @apply flex flex-col h-screen items-center;
-}
-</style>
