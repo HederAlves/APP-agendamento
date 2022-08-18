@@ -69,9 +69,9 @@
             <option
               v-for="doctor of doctors"
               :key="doctor.id"
-              :value="doctor.users_query.name_dependente"
+              :value="doctor.users_query"
             >
-              {{ doctors.users_query.name_dependente }}
+              {{ doctors.users_query }}
             </option>
           </select>
         </li>
@@ -106,13 +106,13 @@ export default {
       Doctor.listar()
         .then((response) => {
           this.doctors = response;
-          console.log(response);
-          this.names = response;
-          this.health_insurance = response;
-          this.data_query = response;
-          this.hours = response;
-          this.price = response;
-          this.users_query = response;
+          console.log(response.id);
+          this.name = response;
+          this.health_insurance = response.data;
+          this.data_query = response.data;
+          this.hours = response.data;
+          this.price = response.data;
+          this.users_query = response.data;
         })
         .catch((e) => {
           console.log(e);
