@@ -63,18 +63,6 @@
             </option>
           </select>
         </li>
-        <li>
-          <label>Selecione para quem é a consulta</label>
-          <select name="name" id="name" v-model="schedule.users_query">
-            <option
-              v-for="doctor of doctors"
-              :key="doctor.id"
-              :value="doctor.users_query"
-            >
-              {{ doctors.users_query }}
-            </option>
-          </select>
-        </li>
       </ul>
       <button class="button">Agendar</button>
     </form>
@@ -105,14 +93,15 @@ export default {
     listar() {
       Doctor.listar()
         .then((response) => {
-          this.doctors = response;
-          console.log(response.id);
+          
+          console.log(response.data);
+          this.doctors = response.data;
           this.name = response;
-          this.health_insurance = response.data;
-          this.data_query = response.data;
-          this.hours = response.data;
-          this.price = response.data;
-          this.users_query = response.data;
+          this.health_insurance = response;
+          this.data_query = response;
+          this.hours = response;
+          this.price = response;
+          this.users_query = response;
         })
         .catch((e) => {
           console.log(e);
