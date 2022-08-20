@@ -1,74 +1,194 @@
 {
-  "doctors": [
+  "AGENDA": [
     {
-      "id": 1,
-      "name": "Benedita",
-      "health_insurance": "Medical Group",
-      "data_query": "15/abril/2023",
-      "hours": "10:00",
-      "price": "500,00"
+      "CD_AGENDA": 807,
+      "DS_AGENDA": "Marcos Hirose",
+      "MEDICO": "Marcos Hirose",
+      "ESPECIALIDADE": "Otorrinolaringologista",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "842",
+      "IE_SITUACAO": "A"
     },
     {
-      "id": 2,
-      "name": "Antonio",
-      "health_insurance": "St.Medical",
-      "data_query": "10/junho/2023",
-      "hours": "09:00",
-      "price": "400,00"
+      "CD_AGENDA": 857,
+      "DS_AGENDA": "Lucas Vinicius de Andrade",
+      "MEDICO": "Lucas Vinicius de Andrade",
+      "ESPECIALIDADE": "Ortopedia / Traumatologia",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "326568",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 937,
+      "DS_AGENDA": null,
+      "MEDICO": null,
+      "ESPECIALIDADE": null,
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": null,
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 947,
+      "DS_AGENDA": "Marcos Fabio Maximiano de Paula",
+      "MEDICO": "Marcos Fabio Maximiano de Paula",
+      "ESPECIALIDADE": "Angiologia/ Cirurgia Vascular",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "129504",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 948,
+      "DS_AGENDA": "Paulo Soni",
+      "MEDICO": "Paulo Soni",
+      "ESPECIALIDADE": "Pediatria",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "866",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 949,
+      "DS_AGENDA": "Andreia Cristina Martins Borges",
+      "MEDICO": "Andreia Cristina Martins Borges",
+      "ESPECIALIDADE": "Clínica Médica",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "318671",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 1027,
+      "DS_AGENDA": "Ana Paula Tavares",
+      "MEDICO": "Ana Paula Tavares",
+      "ESPECIALIDADE": "Geriatria",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "189674",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 1028,
+      "DS_AGENDA": "Adilson Silvestre",
+      "MEDICO": "Adilson Silvestre",
+      "ESPECIALIDADE": "Geriatria",
+      "DS_CURTA": null,
+      "CD_PESSOA_FISICA": "340691",
+      "IE_SITUACAO": "A"
+    },
+    {
+      "CD_AGENDA": 1029,
+      "DS_AGENDA": "Angelo Jose",
+      "MEDICO": "Angelo Jose",
+      "ESPECIALIDADE": "Nefrologia",
+      "DS_CURTA": "RUA DAS CAMELIAS,344  MGA- FON",
+      "CD_PESSOA_FISICA": "1100",
+      "IE_SITUACAO": "A"
     }
   ],
-  "users": [
+  "DEPENDENTES": [
     {
-      "id": 1,
-      "name": "michael",
-      "data_birth": "417/454",
-      "sex": "asidhoaiusdh",
-      "phone": "71987486748",
-      "nationality": "qweqweqwe",
-      "CPF": "968498749"
-    },
-    {
-      "id": 2,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null,
-      "dependents": [
-        {
-          "id": ""
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "",
-      "password": ""
-    },
-    {
-      "id": 4,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null
-    },
-    {
-      "id": 5,
-      "name": null,
-      "data_birth": null,
-      "sex": null,
-      "phone": null,
-      "nationality": null,
-      "CPF": null,
-      "dependents": [
-        {
-          "id": ""
-        }
-      ]
+      "CD_PESSOA_FISICA": "388333",
+      "OBTER_NOME_PF(CD_PESSOA_FISICA)": "Gislaine da Silva Paulino",
+      "CD_PESSOA_DEPENDENTE": "315337",
+      "NM_PESSOA_DEPENDENTE": "Gisa Teste",
+      "GRAU_PARENTESCO": "Irmão(ã)"
     }
   ],
-  "schedules": []
+  "HORARIOS_LIVRES": [
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T19:40:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T19:30:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T19:20:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T19:10:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T19:00:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T18:50:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T18:40:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T18:30:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    },
+    {
+      "CD_AGENDA": 97,
+      "DT_AGENDA": "2022-08-17T18:20:00.000Z",
+      "IE_STATUS_AGENDA": "L",
+      "NR_MINUTO_DURACAO": 10,
+      "CD_TURNO": "1"
+    }
+  ],
+  "HORARIO_PACIENTE": [
+    {
+      "CD_AGENDA": 1312,
+      "DT_AGENDA": "2022-07-14T18:10:00.000Z",
+      "IE_STATUS_AGENDA": "E",
+      "NR_MINUTO_DURACAO": 0,
+      "CD_TURNO": "1",
+      "CD_PESSOA_FISICA": "388333",
+      "NR_ATENDIMENTO": 959633
+    },
+    {
+      "CD_AGENDA": 1312,
+      "DT_AGENDA": "2022-08-04T19:20:00.000Z",
+      "IE_STATUS_AGENDA": "E",
+      "NR_MINUTO_DURACAO": 0,
+      "CD_TURNO": "1",
+      "CD_PESSOA_FISICA": "388333",
+      "NR_ATENDIMENTO": 968154
+    }
+  ],
+  "PESSOAS": [
+    {
+      "CD_PESSOA_FISICA": "388333",
+      "NM_PESSOA_FISICA": "Gislaine da Silva Paulino",
+      "DT_ATUALIZACAO": "2022-07-14T17:14:23.000Z",
+      "DT_NASCIMENTO": "1980-07-25T03:00:00.000Z",
+      "IE_SEXO": "F",
+      "DT_NASCIMENTO_1": "1980-07-25T03:00:00.000Z",
+      "NR_CPF": "00702201901",
+      "NR_IDENTIDADE": "72538420",
+      "NOME_MAE": null,
+      "TELEFONE": "44999895543",
+      "EMAIL": null
+    }
+  ]
 }
