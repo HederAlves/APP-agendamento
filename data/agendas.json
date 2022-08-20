@@ -1,0 +1,83 @@
+[
+  {
+   "CD_AGENDA": 807,
+   "DS_AGENDA": "Marcos Hirose",
+   "MEDICO": "Marcos Hirose",
+   "ESPECIALIDADE": "Otorrinolaringologista",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "842",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 857,
+   "DS_AGENDA": "Lucas Vinicius de Andrade",
+   "MEDICO": "Lucas Vinicius de Andrade",
+   "ESPECIALIDADE": "Ortopedia / Traumatologia",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "326568",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 937,
+   "DS_AGENDA": null,
+   "MEDICO": null,
+   "ESPECIALIDADE": null,
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": null,
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 947,
+   "DS_AGENDA": "Marcos Fabio Maximiano de Paula",
+   "MEDICO": "Marcos Fabio Maximiano de Paula",
+   "ESPECIALIDADE": "Angiologia/ Cirurgia Vascular",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "129504",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 948,
+   "DS_AGENDA": "Paulo Soni",
+   "MEDICO": "Paulo Soni",
+   "ESPECIALIDADE": "Pediatria",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "866",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 949,
+   "DS_AGENDA": "Andreia Cristina Martins Borges",
+   "MEDICO": "Andreia Cristina Martins Borges",
+   "ESPECIALIDADE": "Clínica Médica",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "318671",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 1027,
+   "DS_AGENDA": "Ana Paula Tavares",
+   "MEDICO": "Ana Paula Tavares",
+   "ESPECIALIDADE": "Geriatria",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "189674",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 1028,
+   "DS_AGENDA": "Adilson Silvestre",
+   "MEDICO": "Adilson Silvestre",
+   "ESPECIALIDADE": "Geriatria",
+   "DS_CURTA": null,
+   "CD_PESSOA_FISICA": "340691",
+   "IE_SITUACAO": "A"
+  },
+  {
+   "CD_AGENDA": 1029,
+   "DS_AGENDA": "Angelo Jose",
+   "MEDICO": "Angelo Jose",
+   "ESPECIALIDADE": "Nefrologia",
+   "DS_CURTA": "RUA DAS CAMELIAS,344  MGA- FON",
+   "CD_PESSOA_FISICA": "1100",
+   "IE_SITUACAO": "A"
+  }
+ ]

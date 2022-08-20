@@ -1,0 +1,65 @@
+[
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T19:40:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T19:30:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T19:20:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T19:10:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T19:00:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T18:50:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T18:40:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T18:30:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  },
+  {
+   "CD_AGENDA": 97,
+   "DT_AGENDA": "2022-08-17T18:20:00.000Z",
+   "IE_STATUS_AGENDA": "L",
+   "NR_MINUTO_DURACAO": 10,
+   "CD_TURNO": "1"
+  }
+ ]
