@@ -70,6 +70,7 @@
 </template>
 <script>
 import Doctor from "../../services/doctors";
+import Schedule from "../../services/schedule";
 
 export default {
   name: "FormSchedule",
