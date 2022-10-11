@@ -2,7 +2,7 @@
   "doctors": [
     {
       "id": 1,
-      "name": "Benedita",
+      "name": "Dr.Antonio",
       "health_insurance": "Medical Group",
       "data_query": "15/abril/2023",
       "hours": "10:00",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "Antonio",
+      "name": "Dra.Benedita",
       "health_insurance": "St.Medical",
       "data_query": "10/junho/2023",
       "hours": "09:00",
@@ -20,24 +20,17 @@
   "users": [
     {
       "id": 1,
-      "name": "heder alves",
+      "name": "heder Alves",
       "data_birth": "29/05/1992",
       "sex": "Masculino",
       "phone": "41 99999-9999",
       "nationality": "Brasileiro",
       "CPF": "000.000.000-00",
-      "dependets": [
-        {
-          "id": 6
-        },
-        {
-          "id": 7
-        }
-      ]
+      "dependets": 0
     },
     {
       "id": 2,
-      "name": "heder",
+      "name": "Helcio Alves",
       "data_birth": "5050",
       "sex": "qweqweqw",
       "phone": "6516541",
@@ -46,45 +39,6 @@
     }
   ],
   "Schedules": [
-    {
-      "id": 1,
-      "name": null,
-      "health_insurance": null,
-      "data_query": null,
-      "hours": null,
-      "price": null
-    },
-    {
-      "id": 2,
-      "name": null,
-      "health_insurance": null,
-      "data_query": null,
-      "hours": null,
-      "price": null
-    },
-    {
-      "id": 3,
-      "name": null,
-      "health_insurance": null,
-      "data_query": null,
-      "hours": null,
-      "price": null
-    },
-    {
-      "id": 4,
-      "name": null,
-      "health_insurance": null,
-      "data_query": null,
-      "hours": null,
-      "price": null
-    },
-    {
-      "id": 5,
-      "name": "Benedita",
-      "health_insurance": "Medical Group",
-      "data_query": "15/abril/2023",
-      "hours": "10:00",
-      "price": "500,00"
-    }
+
   ]
 }

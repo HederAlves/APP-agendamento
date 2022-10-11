@@ -8,6 +8,6 @@ export default {
 </script>
 <style scoped>
 img {
-  @apply w-36 sm:hidden;
+  @apply w-60 sm:hidden;
 }
 </style>
