@@ -22,9 +22,8 @@ export default {
 </script>
 <style scoped>
 .mainContainer {
-  @apply flex flex-col items-center gap-4 absolute -mt-[65vh] sm:-mt-[55vh] -ml-[1.3vh] sm:ml-[2vh] bg-slate-900 text-white text-center p-5 rounded-lg h-auto;
+  @apply flex flex-col items-center gap-4 absolute -mt-[65vh] sm:-mt-[55vh] -ml-[1.8vh] sm:ml-[2vh] bg-slate-900 text-white text-center p-5 rounded-lg h-auto;
 }
-
 .listbutton {
   @apply flex gap-2 mt-10;
 }
