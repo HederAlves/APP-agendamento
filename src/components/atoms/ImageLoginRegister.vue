@@ -8,6 +8,6 @@ export default {
 </script>
 <style scoped>
 img {
-  @apply h-screen w-2/5 invisible sm:visible;
+  @apply h-screen w-2/5 invisible sm:visible absolute -mt-20 sm:static sm:mt-0;
 }
 </style>
