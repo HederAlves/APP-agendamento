@@ -53,9 +53,11 @@ export default {
 </script>
 <style scoped>
 form {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col;
 }
-
+label {
+  @apply mt-3 mb-1 ml-1;
+}
 .button {
   @apply w-[50vh] h-[6vh] font-bold rounded-md  pl-2 bg-emerald-400 my-5;
 }
