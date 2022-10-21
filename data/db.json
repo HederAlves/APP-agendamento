@@ -20,25 +20,15 @@
   "users": [
     {
       "id": 1,
-      "name": "heder Alves",
-      "data_birth": "29/05/1992",
-      "sex": "Masculino",
-      "phone": "41 99999-9999",
-      "nationality": "Brasileiro",
-      "CPF": "000.000.000-00",
-      "dependets": 0
+      "name": "Heder",
+      "data_birth": "798798789",
+      "sex": "qwepqwe´p",
+      "phone": "987987",
+      "nationality": "qwelqwp[éql",
+      "CPF": "879987"
     },
     {
       "id": 2,
-      "name": "Helcio Alves",
-      "data_birth": "5050",
-      "sex": "qweqweqw",
-      "phone": "6516541",
-      "nationality": "qweqweqw",
-      "CPF": "561654165"
-    },
-    {
-      "id": 3,
       "name": null,
       "data_birth": null,
       "sex": null,
@@ -47,7 +37,7 @@
       "CPF": null
     },
     {
-      "id": 4,
+      "id": 3,
       "name": null,
       "data_birth": null,
       "sex": null,
@@ -61,5 +51,22 @@
       ]
     }
   ],
-  "Schedules": []
+  "Schedules": [
+    {
+      "id": 1,
+      "name": "Dr.Antonio",
+      "health_insurance": "Medical Group",
+      "data_query": "15/abril/2023",
+      "hours": "09:00",
+      "price": "500,00"
+    },
+    {
+      "id": 2,
+      "name": "Dra.Benedita",
+      "health_insurance": "Medical Group",
+      "data_query": null,
+      "hours": null,
+      "price": null
+    }
+  ]
 }
