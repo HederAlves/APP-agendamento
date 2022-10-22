@@ -1,7 +1,7 @@
 <template>
   <div>
     <form @submit.prevent="salvar">
-    <h1 class="m-8 text-center font-bold">Agendamento</h1>
+    <h1 class="my-2 text-center font-bold">Agendamento</h1>
       <ul>
         <li>
           <label>Selecione o Medico</label>
@@ -125,14 +125,16 @@ export default {
 </script>
 <style>
 li {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col;
 }
-
+label {
+  @apply mt-3 mb-1 ml-1;
+}
 select {
   @apply w-[50vh] border-4 rounded-md pl-2;
 }
 
 .button {
-  @apply w-[50vh] h-[6vh] font-bold rounded-md  pl-2 bg-emerald-400 my-5;
+  @apply w-[50vh] h-[6vh] font-bold rounded-md  pl-2 bg-emerald-400 mt-6 mb-12;
 }
 </style>
